@@ -2,7 +2,7 @@ package cw.test.Day14;
 
 import org.testng.annotations.Test;
 
-public class C05_TimeUp {
+public class C05_TimeOut {
 
     // time out bir methodun max calisma suresini set eder
     // time out suresi asilirsa nerde kalindiysa orada test exception firlatarak methoddan cikilir
