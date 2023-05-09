@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Suite">
+    <test name="Paralel Paralel" parallel="methods" thread-count="3">
+        <classes>
+            <class name="cw.test.Day17.C02_ParalelExecution"></class>
+        </classes>
+    </test>
+</suite>

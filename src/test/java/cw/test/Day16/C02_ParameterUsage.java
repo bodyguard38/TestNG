@@ -18,6 +18,7 @@ public class C02_ParameterUsage {
     public void setup(@Optional("chrome") String browser){
 
         // switch veya if else bloklarina tabi tutulur
+        //cross browser testing   ->farkli browser larda test calistirma teknigi
 
         switch (browser){
 
