@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon website check">
+    <test name="Test_01">
+        <classes>
+            <class name="cw.Practice.DataProvider_Task04">
+                <methods>
+                    <include name="SearchWords"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
