@@ -37,6 +37,7 @@ public class C03_DataProvider {
 
         // DataProvider methodu kesinlikle ve kesinlikle Object[][] return etmelidir
         // 2 boyutlu array imizin her satiri bir test execution her sutunu ise execution sirasinda kullanilcak olan degiskeni temsil eder
+
         Object[][] data = new Object[6][3];
 
         data[0] = new Object[]{"karl@gmail.com", "Aa1.", "6 harften kisa"};
